@@ -2,7 +2,6 @@ altair
 datetime
 dill
 ipywidgets
-math
 matplotlib
 mpl_toolkits
 numpy
