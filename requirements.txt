@@ -3,7 +3,7 @@ datetime
 dill
 ipywidgets
 matplotlib
-mpl_toolkits
+mpl_toolkits.mplot3d
 numpy
 pandas
 sklearn
