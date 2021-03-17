@@ -1,13 +1,13 @@
 altair
-datetime
 dill
 ipywidgets
-math
 matplotlib
 numpy
 pandas
-sklearn
+scikit-learn
 streamlit
+
+
 
 
 
