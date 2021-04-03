@@ -4,10 +4,8 @@ ipywidgets
 matplotlib
 numpy
 pandas
-<<<<<<< HEAD
 scikit-sklearn
 streamlit
-=======
 scikit-learn
 streamlit
 
