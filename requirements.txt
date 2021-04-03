@@ -4,6 +4,10 @@ ipywidgets
 matplotlib
 numpy
 pandas
+<<<<<<< HEAD
+scikit-sklearn
+streamlit
+=======
 scikit-learn
 streamlit
 
@@ -12,3 +16,4 @@ streamlit
 
 
 
+>>>>>>> aef5b91acc91ed0e563a8fef3be73f99c7f67793
