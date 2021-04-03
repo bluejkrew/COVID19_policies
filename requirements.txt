@@ -4,7 +4,6 @@ ipywidgets
 matplotlib
 numpy
 pandas
-scikit-sklearn
 streamlit
 scikit-learn
 streamlit
