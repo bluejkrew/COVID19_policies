@@ -1,6 +1,6 @@
 # Targeted Strategies in Reducing the Spread of COVID-19 and Future Pandemics
 
-This web application examines differences in the effectiveness of state-mandated COVID-19 interventions among U.S. counties, and how they relate to certain county characteristics. The project goal is to find more targeted approaches to handling future respiratory-based pandemics that would address specific needs of each community. 
+This web application examines the differences in the effectiveness of state-mandated COVID-19 interventions among U.S. counties, and how they relate to certain county characteristics. The project goal is to find more targeted approaches to handling future respiratory-based pandemics that would address specific needs of each community. 
 
 ### Identify county subgroups via k-means clustering
 
