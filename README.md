@@ -8,6 +8,7 @@ The first step is to divide the U.S. counties into subgroups based on the follow
 -	Population density (2018)
 -	Percent in poverty
 -	Percentage of seniors in population
+
 With these characteristics, preliminary analysis with k-means clustering will create 3 different subgroups of counties.  
 
 
