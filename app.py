@@ -272,7 +272,7 @@ def app():
 	#
 	# st.write(df_prepan)
 
-	st.sidebar.markdown('''Ahh yeah...bullet points!''')
+	#st.sidebar.markdown('''Ahh yeah...bullet points!''')
 
 if __name__ == '__main__':
 	app()
