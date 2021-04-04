@@ -13,13 +13,13 @@ from ipywidgets import IntSlider
 from ipywidgets import interact
 from matplotlib import pylab as plt
 
-df_counties_w_cluster_stats = dill.load(open('df_counties_w_cluster_stats', 'rb'))
-df_intervdiff_clusters = dill.load(open('df_intervdiff_clusters.pkd', 'rb'))
-df_posInc_policy = dill.load(open('df_posInc_policy', 'rb'))
-df_all_SMA_7 = dill.load(open('df_all_SMA_7(4-1-2021).pkd','rb'))
+df_counties_w_cluster_stats = dill.load(open('dataframes_saved/df_counties_w_cluster_stats', 'rb'))
+df_intervdiff_clusters = dill.load(open('dataframes_saved/df_intervdiff_clusters.pkd', 'rb'))
+df_posInc_policy = dill.load(open('dataframes_saved/df_posInc_policy', 'rb'))
+df_all_SMA_7 = dill.load(open('dataframes_saved/df_all_SMA_7(4-1-2021).pkd','rb'))
 df_state_fips = df_posInc_policy[['fips','stname']]
 df_all_SMA_7 = df_all_SMA_7.merge(df_state_fips, on='fips')
-df_prepan_pov_age_cluster = dill.load(open('df_prepan_pov_age_cluster.pkd','rb'))
+df_prepan_pov_age_cluster = dill.load(open('dataframes_saved/df_prepan_pov_age_cluster.pkd','rb'))
 
 df_cluster_pop_pov_age = df_prepan_pov_age_cluster[['Cluster', 'popdensity_2018','PCT_POV', 'PCT_AGED']]
 df_cluster_stats = df_cluster_pop_pov_age.groupby(['Cluster']).mean() \
