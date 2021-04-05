@@ -2,6 +2,8 @@
 
 This web application examines the differences in the effectiveness of state-mandated COVID-19 interventions among U.S. counties, and how they relate to certain county characteristics. The project goal is to find more targeted approaches to handling future respiratory-based pandemics that would address specific needs of each community. 
 
+Link to application: https://j-tsao-capstone.herokuapp.com/
+
 ### Identify county subgroups via k-means clustering
 
 The first step is to divide the U.S. counties into subgroups based on the following community-level characteristics: 
