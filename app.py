@@ -223,7 +223,6 @@ def create_multiline(state, county, ls_interventions):
 def app():
 	st.title("Targeted Strategies in Reducing the Spread of COVID-19 and Future Pandemics")
 	# And write the rest of the app inside this function!
-	st.sidebar.header("Header 1")
 	st.markdown('''This web application is intended to assist in identifying effective policies to combat a respiratory-spread pandemic based on county-specific features.
 				The model is based on county-level disease data collected during the COVID-19 pandemic, combined with census data for county-level demographics.
 				''')
@@ -271,7 +270,7 @@ def app():
 	# df_prepan = load_prepan()
 	#
 	# st.write(df_prepan)
-
+	#st.sidebar.header("Header 1")
 	#st.sidebar.markdown('''Ahh yeah...bullet points!''')
 
 if __name__ == '__main__':
